@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label{
+    color: rgb(62, 58, 58);
+}
+.navMain{
+    z-index: 999;
+}
+.travel_management{
+    overflow-y: scroll;
+}
+.travel_img img{
+    text-align: justify;
+    position: relative;
+    width: 84rem;
+    height: 100vh;
+    filter: brightness(0.4);
+}
+.travel_img img{
+    width: 85rem;
+    position: relative;
+    filter: brightness(0.4);
+    height: 100vh;
+}
+.travel_management::-webkit-scrollbar{
+    display: none;
+}
+.image_content{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    top: 66px;
+    width: 100%;
+    text-align: center;
+}
+.image_content p{
+    width: 50rem;
+}
+iframe{
+    border-radius: 10px;
+}
+.how_it_works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.works_left{
+    width: 20%;
+    animation: slideInLeft 1s ease-in-out;
+}
+.works_left img{
+    width: 15rem;
+    height: 12rem;
+}
+.works_right{
+    width: 20%;
+}
+.works_right img{
+    width: 15rem;
+    height: 12rem;
+}
+.control{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.controller{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 25%;
+}
+.controller span{
+    font-size: 50px;
+}
+.pono_corporate_use_img img{
+    margin-left: -350px;
+}
+.travel{
+    width: 40%;
+}
+.white_papers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.white_papers p{
+    width: 50%;
+}
+.comapny_signup{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    background-color: rgb(170, 206, 206);
+    border: .2px solid black;
+    padding: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.form input, select{
+    background-color: rgb(225, 244, 230);
+    padding: .1rem .5rem;
+    border-radius: 5px;
+}

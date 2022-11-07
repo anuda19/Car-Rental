@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS Link =============================================================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Link =============================================================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- About CSS =====================================-->
+    <link rel="stylesheet" href="about.css">
+
+    <title>About Pono</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark shadow-5-strong navMain fw-bolder position-fixed w-100">
+        <div class="container-fluid ">
+            <h1 class="navbar-brand" href="../index.html">Pono</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav container-fluid justify-content-end">
+                    <li class="nav-item nav_icon">
+                        <span class="material-symbols-outlined text-light">
+                            info
+                        </span>
+                        <a class="nav-link active" aria-current="page" href="./About/about.html">
+                            About</a>
+                    </li>
+                    <li class="nav-item nav_icon">
+                        <span class="material-symbols-outlined">
+                            local_taxi
+                        </span>
+                        <a class="nav-link" href="../PonoCorporate/corporate.html">Pono
+                            Corporate</a>
+                    </li>
+                    <li class="nav-item nav_icon">
+                        <span class="material-symbols-outlined">
+                            factory
+                        </span>
+                        <a class="nav-link" href="#">Future Factory</a>
+                    </li>
+                    <li class="nav-item nav_icon">
+                        <span class="material-symbols-outlined">
+                            rocket_launch
+                        </span>
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item dropdown nav_icon">
+                        <span class="material-symbols-outlined">
+                            payments
+                        </span>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Wallet</a></li>
+                            <li><a class="dropdown-item" href="#">Payments</a></li>
+                            <li><a class="dropdown-item" href="#">Refers & Earn</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">Booking Details</a></li>
+                            <li><a class="dropdown-item" href="#">Rate Us on the Play Store</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav_icon">
+                        <span class="material-symbols-outlined">
+                            login
+                        </span>
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#signupModal"
+                            href="#signupModal">Login/Register</a>
+                    </li>
+                    <li class="nav-item nav_icon" id="search_input" onclick="showNhideInput()">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <a class="nav-link" href="#">Search</a>
+                    </li>
+                    <li class="nav-item nav_icon search_input_box" id="search_box">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <input type="text" placeholder="Search" class="form-control input_search">
+                        <span class="material-symbols-outlined close_icon" onclick="hideSearch()">
+                            close
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About =====================================================-->
+    <div class="about_us">
+        <div class="text_image">
+            <div class="about_text">
+                <h1>About Work</h1>
+                <p>Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil
+                    round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye
+                    blessing. </p>
+                <p><b>He as spoke avoid given downs money on we. Of properly carriage shutters ye as wandered up
+                        repeated moreover.</b></p>
+            </div>
+            <div class="about_img">
+                <img src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/3b3734d23d505e5a94f37170/pexels-photo-1471751.png"
+                    alt="">
+            </div>
+        </div>
+        <div class="about_fone">
+            <div class="mobile">
+                <span class="material-symbols-outlined">
+                    phone_iphone
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam dolores placeat quod.</p>
+            </div>
+            <div class="location">
+                <span class="material-symbols-outlined">
+                    location_on
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam dolores placeat quod.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="reimagine">
+        <h1>We reimagine the way the world moves for the better</h1>
+        <p class="text-secondary my-3">Movement is what we power. It’s our lifeblood. It runs through our veins. It’s what gets us out of bed each
+            morning. It pushes us to constantly reimagine how we can move better. For you. For all the places you want
+            to go. For all the things you want to get. For all the ways you want to earn. Across the entire world. In
+            real time. At the incredible speed of now.</p>
+    </div>
+
+    <div class="accordion accordion-flush acordian" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Sustainability
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body sustain">
+                <div class="imge">
+                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_558,h_372/v1603308507/assets/f6/0c9607-ae68-43d5-9e88-79f3011d88ee/original/Sustainability.jpg"
+                        alt="" height="300px" width="400px">
+                </div>
+                <div class="text">
+                    <h1>Sustainability</h1>
+                    <p class="text-secondary">Pono is committing to becoming a fully electric, zero-emission platform by 2040, with 100% of
+                        rides taking place in zero-emission vehicles, on public transit, <span class="material-symbols-outlined expand_more" onclick="showMore(0)">
+                            expand_more
+                            </span> <span id="more-content" class="expand">or with micromobility. It
+                            is our responsibility as the largest mobility platform in the world to more aggressively
+                            tackle the challenge of climate change. We will do this by offering riders more ways to ride
+                            green, helping drivers go electric, making transparency a priority and partnering with NGOs
+                            and the private sector to help expedite a clean and just energy transition.<span class="material-symbols-outlined expand_less" onclick="showLess(0)">
+                                expand_less
+                            </span></span></p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Rides and beyond
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body sustain">
+                <div class="imge">
+                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_558,h_372/v1554854756/assets/74/0853d5-80e4-414a-91d7-6fd0b15a136d/original/UberIM_20250-medium-%282%29.jpg"
+                        alt="" height="300px" width="400px">
+                </div>
+                <div class="text">
+                    <h1>Rides and beyond</h1>
+                    <p class="text-secondary">In addition to helping riders find a way to go from point A to point B, we're helping people
+                        order food quickly and affordably, removing barriers to healthcare,<span class="material-symbols-outlined expand_more" onclick="showMore(1)">
+                            expand_more
+                        </span> <span id="more-content" class="expand">creating new
+                                freight-booking solutions, and helping companies provide a seamless employee travel
+                                experience. And always helping drivers and couriers earn.<span class="material-symbols-outlined expand_less" onclick="showLess(1)">
+                                    expand_less
+                                </span></span></p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Your safety drives us
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="accordion-body sustain">
+                    <div class="imge">
+                        <img src="https://th.bing.com/th/id/OIP.UPx2gsz09cblHgF1KLUBiQHaHa?w=177&h=180&c=7&r=0&o=5&pid=1.7"
+                            alt="" height="400px" width="400px">
+                    </div>
+                    <div class="text">
+                        <h1>Your safety drives us</h1>
+                        <p class="text-secondary">Whether you’re in the back seat or behind the wheel, your safety is essential. We are
+                            committed to doing our part, and technology is at the heart of<span class="material-symbols-outlined expand_more" onclick="showMore(2)">
+                                expand_more
+                            </span> <span id="more-content" class="expand">our approach. We partner with safety advocates and develop new technologies and systems to help improve safety and help
+                                    make it easier for everyone to get around.<span class="material-symbols-outlined expand_less" onclick="showLess(2)">
+                                        expand_less
+                                    </span></span></p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Company Info =====================-->
+    <h1 class="text-center my-5">Company Info</h1>
+    <div class="comapny_info">
+        <div class="driving">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_360,h_240/v1555540623/assets/cb/9b789f-167d-4a57-ac3a-c23060bfa9e8/original/170830_DaraAllHands_0I7A9940_R2.jpg"
+                alt="">
+            <h5>Who's driving Pono</h5>
+            <p class="text-secondary mt-2">We’re building a culture within Pono that emphasizes doing the right thing, period, for riders, drivers,
+                and employees. Find out more about the team that’s leading the way.</p>
+        </div>
+        <div class="driving">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_360,h_240/v1619719896/assets/96/8d24b6-76cd-4dcb-8b89-e3125c603538/original/test2259.jpg"
+                alt="">
+            <h5>Getting diversity right</h5>
+            <p class="text-secondary">It’s our goal to create a workplace that is inclusive and reflects the diversity of the cities we
+                serve—where everyone can be their authentic self, and where that authenticity is celebrated as a
+                strength. By creating an environment where people from every background can thrive, we’ll make Uber a
+                better company—for our employees and our customers.</p>
+        </div>
+        <div class="driving">
+            <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_360,h_240/v1664822806/assets/b6/c8a24d-8e79-45a1-9e03-adead244ef0a/original/about-ec-image-01-thumb.png"
+                alt="">
+            <h5>Acting with integrity</h5>
+            <p class="text-secondary">Pono's Ethics & Compliance Program Charter outlines our commitment to integrity at the highest levels
+                within the company. Transparency is critical to an ethical culture; we achieve this through our
+                Integrity Helpline and suite of scalable and effective compliance initiatives.</p>
+        </div>
+    </div>
+
+    <div class="mobility d-flex my-5">
+        <div class="content col-6 mx-5">
+            <h1>Redefining Mobility for Billions</h1>
+                <p class="mt-4 text-secondary">Ola is India’s largest mobility platform and one of the world’s largest ride-hailing companies, serving 250+ cities across India, Australia, New Zealand, and the UK. The Ola app offers mobility solutions by connecting customers to drivers and a wide range of vehicles across bikes, auto-rickshaws, metered taxis, and cabs, enabling convenience and transparency for hundreds of millions of consumers and over 1.5 million driver-partners.
+
+                    Ola’s core mobility offering in India is supplemented by its electric-vehicle arm, Ola Electric; India’s largest fleet management business, Ola Fleet Technologies and Ola Skilling, that aims to enable millions of livelihood opportunities for India's youth. With its acquisition of Ridlr, India’s leading public transportation app and investment in Vogo, a dockless scooter sharing solution, Ola is looking to build mobility for the next billion Indians. Ola also extends its consumer offerings like micro-insurance and credit led payments through Ola Financial Services and a range of owned food brands through India’s largest network of kitchens under its Food business.
+                    
+                    Ola was founded in Dec 2010 by Bhavish Aggarwal and Ankit Bhati with a mission to build mobility for a billion people.</p>
+        </div>
+        <div class="mobility_img ">
+            <img src="https://www.olacabs.com/webstatic/img/about/about-1.jpg" alt="" height="400px" width="550px">
+        </div>
+    </div>
+
+    <div class="achieements">
+        <div class="row">
+            <div class="col-5 ride">
+                <img src="https://www.olacabs.com/webstatic/img/about/book-ride.svg" alt="" height="50px" width="50px">
+                <div class="rides">
+                    <h5>1 bn+</h5>
+                <p>Rides served every year</p>
+                </div>
+            </div>
+            <div class="col-5 ride">
+                <img src="https://www.olacabs.com/webstatic/img/about/city.svg" alt="" height="50px" width="50px">
+                <div class="rides">
+                    <h5>250+</h5>
+                <p>Cities serviced by the Ola to get you to your destination on time, every time</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5 ride">
+                <img src="https://www.olacabs.com/webstatic/img/about/partner.svg" alt="" height="50px" width="50px">
+                <div class="rides">
+                    <h5>1.5 mn</h5>
+                <p>Empowered entrepreneurs as driver-partners on the platform</p>
+                </div>
+            </div>
+            <div class="col-5 ride">
+                <img src="https://www.olacabs.com/webstatic/img/about/employee.svg" alt="" height="50px" width="50px">
+                <div class="rides">
+                    <h5>7,000+</h5>
+                <p>Employees work tirelessly to provide you with the best in technology and service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="keep_with_us">
+        <div class="newsroom">
+            <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542255691/assets/85/aa54ca-6b5b-48d7-82ac-20657ec53f51/original/megaphone-outlined.svg" alt=" " height="20px" width="20px">
+            <h5>Newsroom</h5>
+            <p>Get announcements about partnerships, app updates, initiatives, and more near you and around the world.</p>
+        </div>
+        <div class="newsroom">
+            <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542250072/assets/b8/ea1bfc-215a-4246-97f2-a7ac03cd67bd/original/person_group-filled.svg" alt=" " height="20px" width="20px">
+            <h5>Blog</h5>
+            <p>Find new places to explore and learn about Uber products, partnerships, and more.</p>
+        </div>
+        <div class="newsroom">
+            <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542249793/assets/34/131a8c-392f-44a9-9745-3b8c110502f5/original/network-filled.svg" alt=" " height="20px" width="20px">
+            <h5>Investor relations</h5>
+            <p>Download financial reports, see next-quarter plans, and read about our corporate responsibility initiatives.</p>
+        </div>
+    </div>
+
+    <div class="make_your_brand">
+        <div class="people_go">
+            <h1>Make your brand go where people go</h1>
+            <p>Promote it to millions on the move by advertising your brand through Uber.</p>
+        </div>
+        <div class="brand_img">
+            <img src="https://th.bing.com/th/id/OIP.a3IpSRu0aSL7-9qnrjx0KQHaCJ?w=327&h=101&c=7&r=0&o=5&pid=1.7" alt="">
+        </div>
+    </div>
+    <!-- Footer Section ==========================================-->
+    <footer class="footer_main mt-5">
+        <h3 class=" text-center pt-2">Pono</h3>
+        <p class=" text-center">Visit Help Center</p>
+        <div class="footer_mid">
+            <div class="account">
+                <h4>Account</h4>
+                <p>Wallet</p>
+                <p>Payments</p>
+                <p>Refers & Earn</p>
+                <p>Sopport</p>
+                <p>FAQ</p>
+                <p>Booking Details</p>
+                <p>Rate us on the Play Store</p>
+            </div>
+            <div class="company">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Our Offerings</p>
+                <p>Blog</p>
+                <p>Career</p>
+                <p>Gift Cards</p>
+            </div>
+            <div class="products">
+                <h4>Products</h4>
+                <p>Ride</p>
+                <p>Drive</p>
+                <p>Deliver</p>
+                <p>Pono for Business</p>
+            </div>
+            <div class="travels">
+                <h4>Travels</h4>
+                <p>Airport</p>
+                <p>City</p>
+            </div>
+        </div>
+        <div class="social_icons text-center pb-3">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-media-2198/64/facebook_social_media_network-256.png"
+                alt="" class="social_icons_img" style="width: 40px; height:35px">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-media-2198/64/twitter_social_media_network-256.png"
+                alt="" class="social_icons_img" style="width: 40px; height:35px">
+            <img src="https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/youtube_youtuber_video_play-256.png"
+                alt="" class="social_icons_img" style="width: 40px; height:35px">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-media-2198/64/linkedin_social_media_network-256.png"
+                alt="" class="social_icons_img" style="width: 40px; height:35px">
+            <img src="https://cdn2.iconfinder.com/data/icons/social-media-2198/64/instagram_social_media_network-256.png"
+                alt="" class="social_icons_img" style="width: 40px; height:35px">
+            <img src="https://cdn4.iconfinder.com/data/icons/business-finance-vol-12-2/512/10-64.png" alt=""
+                class="social_icons_img" style="width: 25px; height:25px"> English
+            <img src="https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/locate_location_map_pin-64.png"
+                alt="" class="social_icons_img" style="width: 30px; height:30px"> Kolkata
+        </div>
+    </footer>
+
+    <script src="../index.js"></script>
+    <!-- About JS =============================================-->
+    <script src="about.js"></script>
+</body>
+
+</html>

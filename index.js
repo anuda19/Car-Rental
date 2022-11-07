@@ -10,14 +10,16 @@
     // Navbar enables seach input  
     let s = document.getElementsByClassName('search_input_box')
     let d= document.getElementById('search_input')
-    console.log(s);
     s[0].style.display = 'none'
     function showNhideInput(){
       s[0].style.display = 'flex'
       d.style.display = 'none'
-
 }
 
+  const hideSearch = ()=>{
+    s[0].style.display = 'none'
+    d.style.display = 'flex'
+  }
 // Navbar scroll color change
     window.onscroll = function() {scrollFunction()};
  
@@ -35,8 +37,7 @@
   var dateArray = date.split('');
   dateArray.splice(date.indexOf('GMT') - 4);
   var shorter = dateArray.join('');
-  console.log(shorter);
 
-  document.getElementById('date-time').innerHTML = shorter
+  // document.getElementById('date-time').innerHTML = shorter
 
 
