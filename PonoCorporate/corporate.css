@@ -1,35 +1,27 @@
 *{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 body{
+    overflow-x: hidden;
+    padding-left: 0;
+    padding-right: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 label{
     color: rgb(62, 58, 58);
 }
-.navMain{
+.corporateNav{
     z-index: 999;
-}
-.travel_management{
-    overflow-y: scroll;
+    width: 100vw;
 }
 .travel_img img{
     text-align: justify;
     position: relative;
-    width: 84rem;
+    width: 100vw;
     height: 100vh;
     filter: brightness(0.4);
-}
-.travel_img img{
-    width: 85rem;
-    position: relative;
-    filter: brightness(0.4);
-    height: 100vh;
-}
-.travel_management::-webkit-scrollbar{
-    display: none;
 }
 .image_content{
     position: absolute;
@@ -42,53 +34,50 @@ label{
     width: 100%;
     text-align: center;
 }
-.image_content p{
-    width: 50rem;
-}
 iframe{
     border-radius: 10px;
 }
-.how_it_works{
+.how_to_work_with{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.works_left{
-    width: 20%;
-    animation: slideInLeft 1s ease-in-out;
-}
-.works_left img{
+.how_it_works img{
     width: 15rem;
     height: 12rem;
 }
-.works_right{
-    width: 20%;
+.works{
+    width: 18rem;
 }
-.works_right img{
-    width: 15rem;
-    height: 12rem;
-}
-.control{
+.control_items{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
 }
 .controller{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 25%;
+    width: 20rem;
 }
 .controller span{
     font-size: 50px;
 }
+.pono_corporate_use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .pono_corporate_use_img img{
     margin-left: -350px;
 }
+.use_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .travel{
-    width: 40%;
+    width: 18rem;
 }
 .white_papers{
     display: flex;
@@ -102,6 +91,7 @@ iframe{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .form{
     background-color: rgb(170, 206, 206);
@@ -114,4 +104,18 @@ iframe{
     background-color: rgb(225, 244, 230);
     padding: .1rem .5rem;
     border-radius: 5px;
+}
+
+@media screen and (max-width:600px)  {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .pono_corporate_use_img img{
+        width: 30rem;
+        height: 20rem;
+    }
+    iframe{
+        width: 20rem;
+    }
 }
